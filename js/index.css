@@ -1,0 +1,164 @@
+@media only screen and (max-width: 400px) {
+
+    .container {
+        width: 340px;
+    }
+
+    .slider-block {
+        margin: 0 auto;
+
+        .container-slider {
+            margin: 0 auto;
+            width: 100% !important;
+        }
+
+        .next-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .prev-btn {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            z-index: 1000;
+        }
+
+
+
+        .prev-btn,
+        .next-btn {
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+
+        .test {
+            height: 303px;
+            width: 236px;
+            border-radius: 15px;
+
+            p {
+                padding: 28px 20px 0 20px;
+                font-size: 16px;
+            }
+
+            h1 {
+                padding-top: 16px;
+            }
+        }
+
+        .slick-list {
+            overflow: visible;
+        }
+
+
+
+    }
+
+    .tabs_item p {
+        display: contents;
+    }
+
+    .mob-display__none {
+        display: none;
+    }
+
+
+    .form-background {
+        margin-left: 0;
+    }
+
+    .footer {
+        height: auto;
+
+        .footer-contacts {
+            margin-top: 40px;
+        }
+
+        .logo-footer {
+            padding-left: 40px;
+        }
+    }
+
+    .contacts {
+        background-image: url(../img/bg-mobile-footer.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: bottom;
+        margin-bottom: 50px;
+        height: 520px;
+
+        .contact-icon {
+            margin-top: 10px;
+        }
+    }
+
+    .contatc-form {
+        background-image: url(../img/bg-mob-car.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position-y: bottom;
+        margin-top: 800px;
+        height: 900px;
+
+        .form-width {
+            width: 100%;
+            margin-left: 0;
+            height: 254px;
+            border-radius: 30px;
+
+            h3 {
+                padding-top: 1rem;
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-size: 14px;
+                margin-bottom: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            button {
+                padding: 6px 29px;
+                width: 284px;
+            }
+
+            .form-inputs {
+                height: 32px;
+                width: 284px;
+                margin-top: 10px;
+            }
+        }
+
+        .col-lg-2 {
+            display: none;
+        }
+
+    }
+
+    .main {
+        width: 100%;
+
+        .slick-list {
+            padding: 0;
+        }
+
+        .slide-bg {
+            margin: auto;
+            width: 70%;
+        }
+    }
+
+    .about-footer {
+        display: none;
+    }
+
+}
